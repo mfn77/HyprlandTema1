@@ -2,12 +2,12 @@
 
 Basit Bir Hyprland Konfigürasyonu. Hiçbir düzenlemeyi ben oluşturmadım, sadece kendime göre değiştirdim.
 
-* **Pencere Yöneticisi** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Tiles Everywhere!
-* **Terminal** • [Kitty ](https://github.com/kovidgoyal/kitty) 💻 the fast, feature-rich, cross-platform, GPU based terminal!
-* **Panel** • [Waybar ](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧 Patched waybar following hyprland faq!
-* **Bildirim Uygulaması** • [Dunst ](https://github.com/dunst-project/dunst) 🍃 Minimalist and functional!
-* **Uygulama Başlatıcı** • [Rofi ](https://github.com/davatorium/rofi) 🚀 Realmente rápido y customizable!
-* **Dosya Yöneticisi** • [Thunar ](https://github.com/xfce-mirror/thunar)🔖 Thunar is a modern file manager for the Xfce Desktop Environment!
+* **Pencere Yöneticisi** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨
+* **Terminal** • [Kitty ](https://github.com/kovidgoyal/kitty) 💻
+* **Panel** • [Waybar ](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧
+* **Bildirim Uygulaması** • [Dunst ](https://github.com/dunst-project/dunst) 🍃
+* **Uygulama Başlatıcı** • [Rofi ](https://github.com/davatorium/rofi) 🚀
+* **Dosya Yöneticisi** • [Thunar ](https://github.com/xfce-mirror/thunar)🔖
 
 # Kurulum
 İndirmeniz gereken bağımlılıklar ve programlar, bütün konfigürasyon dosyalarıyla beraber kurulum dosyasının içinde mevcut. Sadece kullanıcı dosyanıza indirip oradan kurulum.sh dosyasını çalıştıracaksınız. Kurulum.sh dosyasını ya grafiksel olarak(GNOME - KDE Plasma gibi masaüstü ortamlarını kullanıyorsanız) sağ tıklayıp özelliklerden çalıştırabilir olarak işaretledikten sonra dosyanın üzerine çift tıklayarak, 
