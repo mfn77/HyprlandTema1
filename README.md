@@ -52,4 +52,5 @@ yay -S catppuccin-gtk-theme-mocha catppuccin-cursors-mocha catppuccin-mocha-grub
 ## Katkıda Bulunanlar
 
 [linuxmobile ](https://github.com/linuxmobile)
+
 [PoSayDone ](https://github.com/PoSayDone)
