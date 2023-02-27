@@ -15,11 +15,14 @@ Basit Bir Hyprland Konfigürasyonu. Hiçbir düzenlemeyi ben oluşturmadım, sad
 ya da terminalden 
 
 ```sh
+cd $
 ./Kurulum.sh 
 ```
 
 komutuyla çalıştırabilirsiniz.
 
-!!Kurulum.sh dosyasını ana kullanıcı dosyanıza indirmeniz çok önemlidir, yoksa çalışmaz. Eğer İndirilenler klasörüne indiyse kopyalayıp ana kullanıcı dosyasına yani /home/(KullanıcıAdı)/ konumuna taşımanız gerekir.
+!!Kurulum.sh dosyasını ana kullanıcı dosyanıza indirmeniz çok önemlidir, yoksa çalışmaz. Eğer İndirilenler klasörüne indiyse kopyalayıp ana kullanıcı dosyasına yani /home/(KullanıcıAdı) konumuna taşımanız gerekir.
 
-## 
+## Katkıda Bulunanlar
+
+[linuxmobile ](https://github.com/linuxmobile)
