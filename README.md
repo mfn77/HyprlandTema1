@@ -10,28 +10,44 @@ Basit Bir Hyprland Konfigürasyonu. Hiçbir düzenlemeyi ben oluşturmadım, sad
 * **Dosya Yöneticisi** • [Thunar ](https://github.com/xfce-mirror/thunar)🔖
 
 # Kurulum
-İndirmeniz gereken bağımlılıklar ve programlar, bütün konfigürasyon dosyalarıyla beraber kurulum dosyasının içinde mevcut. Sadece kullanıcı dosyanıza indirip oradan kurulum.sh dosyasını çalıştıracaksınız. Kurulum.sh dosyasını ya grafiksel olarak(GNOME - KDE Plasma gibi masaüstü ortamlarını kullanıyorsanız) sağ tıklayıp özelliklerden çalıştırabilir olarak işaretledikten sonra dosyanın üzerine çift tıklayarak, 
 
-ya da terminalden 
+## OTOMATİK KURULUM
+
+İndirmeniz gereken bağımlılıklar ve programlar, bütün konfigürasyon dosyalarıyla beraber kurulum dosyasının içinde mevcut. Programı Çalıştırmak için 3 seçeneğiniz var:
+
+1- Ya terminalden aşağıdaki komutla otomatik kurabilirsiniz:
 
 ```sh
-cd $
+curl -s -L https://raw.githubusercontent.com/mfn77/HyprlandTema1/main/Kurulum.sh | bash
+```
+
+2- Ya Releases bölümünden Kurulum.sh dosyasını indirdikten sonra grafiksel olarak(GNOME - KDE Plasma gibi masaüstü ortamlarını kullanıyorsanız) sağ tıklayıp özelliklerden çalıştırabilir olarak işaretledikten sonra dosyanın üzerine çift tıklayarak,
+
+3- Ya da yine dosyayı indirdikten sonra indirdiğiniz yerde terminal(uçbirim) açarak aşağıdaki komutla çalıştırabilirsiniz:
+
+```sh
 chmod u+x Kurulum.sh
 ./Kurulum.sh 
 ```
 
-komutuyla çalıştırabilirsiniz.
+## MANUEL KURULUM
 
-## ÖNEMLİ!!
-Kurulum.sh dosyasını ana kullanıcı dosyanıza indirmeniz çok önemlidir, yoksa çalışmaz. Eğer İndirilenler klasörüne indiyse kopyalayıp ana kullanıcı dosyasına yani /home/(KullanıcıAdı) konumuna taşımanız gerekir.
+Bağımlılıklar:
 
 ```sh
-cd /$HOME/İndirilenler
-mv Kurulum.sh /$HOME
-cd $
-./Kurulum.sh 
+yay -S hyprland-git wlogout rofi-emoji dunst polkit-gnome hyprpaper-git hyprpicker-git rofi-wayland grimblast-git imagemagick ffmpegthumbnailer 
+wf-recorder wl-clipboard socat tumbler wtype xdg-desktop-portal-wlr swaylock-effects xorg-xwayland qt5-wayland qt6-wayland waybar-hyprland-git base-devel rustup python xorg-xwayland git
 ```
+Opsiyonel:
 
+```sh
+yay -S blueberry git thunar thunar-archive-plugin neofetch file-roller kitty cava pavucontrol viewnior noise-suppression-for-voice
+```
+Temalar:
+
+```sh
+yay -S catppuccin-gtk-theme-mocha catppuccin-cursors-mocha catppuccin-mocha-grub-theme-git nwg-look breeze-snow-cursor-theme
+```
 
 ## Katkıda Bulunanlar
 
