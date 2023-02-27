@@ -16,6 +16,7 @@ ya da terminalden
 
 ```sh
 cd $
+chmod u+x Kurulum.sh
 ./Kurulum.sh 
 ```
 
