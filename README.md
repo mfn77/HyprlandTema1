@@ -14,7 +14,9 @@ Basit Bir Hyprland Konfigürasyonu. Hiçbir düzenlemeyi ben oluşturmadım, sad
 
 ya da terminalden 
 
+```sh
 ./Kurulum.sh 
+```
 
 komutuyla çalıştırabilirsiniz.
 
