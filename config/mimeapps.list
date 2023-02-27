@@ -1,0 +1,10 @@
+[Added Associations]
+image/png=viewnior.desktop;
+text/markdown=org.gnome.gedit.desktop;
+text/plain=org.gnome.gedit.desktop;
+application/x-shellscript=org.gnome.gedit.desktop;
+text/x-csrc=org.gnome.gedit.desktop;
+
+[Default Applications]
+image/png=viewnior.desktop
+text/plain=org.gnome.gedit.desktop
