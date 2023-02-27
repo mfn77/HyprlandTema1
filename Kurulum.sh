@@ -58,6 +58,7 @@ cp -v $HOME/HyprlandTema1/autostart $DIR
 cd $DIR
 mv profile .profile
 mv autostart .autostart
+rm -rf $HOME/HyprlandTema1
 clear
 
 #Fontlar
