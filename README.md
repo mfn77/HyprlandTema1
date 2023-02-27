@@ -19,3 +19,5 @@ ya da terminalden
 komutuyla çalıştırabilirsiniz.
 
 !!Kurulum.sh dosyasını ana kullanıcı dosyanıza indirmeniz çok önemlidir, yoksa çalışmaz. Eğer İndirilenler klasörüne indiyse kopyalayıp ana kullanıcı dosyasına yani /home/(KullanıcıAdı)/ konumuna taşımanız gerekir.
+
+## 
