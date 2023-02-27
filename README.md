@@ -21,7 +21,16 @@ cd $
 
 komutuyla çalıştırabilirsiniz.
 
-!!Kurulum.sh dosyasını ana kullanıcı dosyanıza indirmeniz çok önemlidir, yoksa çalışmaz. Eğer İndirilenler klasörüne indiyse kopyalayıp ana kullanıcı dosyasına yani /home/(KullanıcıAdı) konumuna taşımanız gerekir.
+## ÖNEMLİ!!
+Kurulum.sh dosyasını ana kullanıcı dosyanıza indirmeniz çok önemlidir, yoksa çalışmaz. Eğer İndirilenler klasörüne indiyse kopyalayıp ana kullanıcı dosyasına yani /home/(KullanıcıAdı) konumuna taşımanız gerekir.
+
+```sh
+cd /$HOME/İndirilenler
+mv Kurulum.sh /$HOME
+cd $
+./Kurulum.sh 
+```
+
 
 ## Katkıda Bulunanlar
 
