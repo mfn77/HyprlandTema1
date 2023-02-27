@@ -13,6 +13,8 @@ Basit Bir Hyprland Konfigürasyonu. Hiçbir düzenlemeyi ben oluşturmadım, sad
 
 ## OTOMATİK KURULUM
 
+### Var Olan .config Dosyanızı Yedekleyin!!
+
 İndirmeniz gereken bağımlılıklar ve programlar, bütün konfigürasyon dosyalarıyla beraber kurulum dosyasının içinde mevcut. Programı Çalıştırmak için 3 seçeneğiniz var:
 
 1- Ya terminalden aşağıdaki komutla otomatik kurabilirsiniz:
