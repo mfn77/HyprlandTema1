@@ -4,7 +4,7 @@ CONFIG_DIR=$HOME/.config
 bold=$(tput bold)
 normal=$(tput sgr0)
 
-cd "$HOME || exit" || exit
+cd "$HOME" || exit
 clear
 
 #Dependencies
@@ -21,7 +21,7 @@ BACK_PID=$!
 wait $BACK_PID
 clear
 
-cd "$HOME || exit" || exit
+cd "$HOME" || exit
 
 #Config Backup
 echo -e "\e[1;31m${bold}Mevcut Konfigurasyon Yedekleniyor${normal}\e[0m"
@@ -55,7 +55,7 @@ mkdir "$DIR"/.scripts
 cp -Rv "$HOME"/HyprlandTema1/wallpapers/* "$DIR"/.wallpapers
 cp -Rv "$HOME"/HyprlandTema1/scripts/* "$DIR"/.scripts
 cp -v "$HOME"/HyprlandTema1/autostart "$DIR"
-cd "$DIR || exit" || exit
+cd "$DIR" || exit
 rm -f .autostart
 mv  autostart .autostart
 rm -rf "$HOME"/HyprlandTema1
