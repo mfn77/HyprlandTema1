@@ -1,6 +1,6 @@
 # HyprlandTema1
 
-Basit Bir Hyprland Konfigürasyonu. Hiçbir düzenlemeyi ben oluşturmadım, sadece kendime göre değiştirdim.
+Basit Bir Hyprland Konfigürasyonu.
 
 * **Pencere Yöneticisi** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨
 * **Terminal** • [Kitty ](https://github.com/kovidgoyal/kitty) 💻
