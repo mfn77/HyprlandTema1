@@ -50,9 +50,17 @@ yay -S catppuccin-gtk-theme-mocha catppuccin-cursors-mocha catppuccin-mocha-grub
 ```
 ## KALDIRMA
 
-Uninstall.sh ile otomatik olarak bütün programları ve konfigürasyon dosyalarını kaldırabilirsiniz. Releases bölümünden Uninstall.sh dosyasını indirdikten sonra grafiksel olarak(GNOME - KDE Plasma gibi masaüstü ortamlarını kullanıyorsanız) sağ tıklayıp özelliklerden çalıştırabilir olarak işaretledikten sonra dosyanın üzerine çift tıklayarak,
+Uninstall.sh ile otomatik olarak bütün programları ve konfigürasyon dosyalarını kaldırabilirsiniz. Kurulumdaki ile aynı şekilde:
 
-Ya da yine dosyayı indirdikten sonra indirdiğiniz yerde terminal(uçbirim) açarak aşağıdaki komutla çalıştırabilirsiniz:
+1- Ya terminalden aşağıdaki komutla otomatik kurabilirsiniz:
+
+```sh
+curl -s -L https://raw.githubusercontent.com/mfn77/HyprlandTema1/main/Uninstall.sh | bash
+```
+
+2- Ya Releases bölümünden Uninstall.sh dosyasını indirdikten sonra grafiksel olarak(GNOME - KDE Plasma gibi masaüstü ortamlarını kullanıyorsanız) sağ tıklayıp özelliklerden çalıştırabilir olarak işaretledikten sonra dosyanın üzerine çift tıklayarak,
+
+3- Ya da yine dosyayı indirdikten sonra indirdiğiniz yerde terminal(uçbirim) açarak aşağıdaki komutla çalıştırabilirsiniz:
 
 ```sh
 chmod u+x Uninstall.sh
