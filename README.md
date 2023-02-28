@@ -2,12 +2,12 @@
 
 Basit Bir Hyprland Konfigürasyonu.
 
-* **Pencere Yöneticisi** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨
-* **Terminal** • [Kitty ](https://github.com/kovidgoyal/kitty) 💻
-* **Panel** • [Waybar ](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧
-* **Bildirim Uygulaması** • [Dunst ](https://github.com/dunst-project/dunst) 🍃
-* **Uygulama Başlatıcı** • [Rofi ](https://github.com/davatorium/rofi) 🚀
-* **Dosya Yöneticisi** • [Thunar ](https://github.com/xfce-mirror/thunar)🔖
+* **Pencere Yöneticisi** • [Hyprland ](https://github.com/hyprwm/Hyprland)
+* **Terminal** • [Kitty ](https://github.com/kovidgoyal/kitty)
+* **Panel** • [Waybar ](https://aur.archlinux.org/packages/waybar-hyprland-git)
+* **Bildirim Uygulaması** • [Dunst ](https://github.com/dunst-project/dunst)
+* **Uygulama Başlatıcı** • [Rofi ](https://github.com/davatorium/rofi)
+* **Dosya Yöneticisi** • [Thunar ](https://github.com/xfce-mirror/thunar)
 
 # Kurulum
 
