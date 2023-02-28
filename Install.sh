@@ -4,7 +4,7 @@ CONFIG_DIR=$HOME/.config
 bold=$(tput bold)
 normal=$(tput sgr0)
 
-cd $HOME
+cd "$HOME || exit" || exit
 clear
 
 #Dependencies
@@ -21,55 +21,55 @@ BACK_PID=$!
 wait $BACK_PID
 clear
 
-cd $HOME
+cd "$HOME || exit" || exit
 
 #Config Backup
 echo -e "\e[1;31m${bold}Mevcut Konfigurasyon Yedekleniyor${normal}\e[0m"
-mkdir $DIR/.OldConfig
-cp -Rv $HOME/.config/* $DIR/.OldConfig
+mkdir "$DIR"/.OldConfig
+cp -Rv "$HOME"/.config/* "$DIR"/.OldConfig
 
 #Hyprland Configs
 echo -e "\e[1;31m${bold}Hyprland Ayarlari Yapilandiriliyor${normal}\e[0m"
 git clone https://github.com/mfn77/HyprlandTema1.git
 #rm -rf $DIR $CONFIG_DIR/eww $CONFIG_DIR/gtk-3.0 $CONFIG_DIR/gtk-4.0 $CONFIG_DIR/gtklock $CONFIG_DIR/gtklock $CONFIG_DIR/kitty $CONFIG_DIR/neofetch $CONFIG_DIR/rofi $CONFIG_DIR/swaync $CONFIG_DIR/waybar
-cd $HOME/HyprlandTema1/
-cp -Rv $HOME/HyprlandTema1/config/hpyr $CONFIG_DIR
+cd "$HOME"/HyprlandTema1/ || exit
+cp -Rv "$HOME"/HyprlandTema1/config/hpyr "$CONFIG_DIR"
 clear
 
 #Other Configs
 echo -e "\e[1;31m${bold}Diger Ayarlar Esitleniyor${normal}\e[0m"
-cp -Rv $HOME/HyprlandTema1/config/kitty $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/config/gtk-3.0 $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/config/dunst $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/config/swaylock $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/config/nwg-look $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/config/viewnior $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/config/rofi $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/config/wlogout $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/config/waybar $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/config/xsettingsd $CONFIG_DIR/
-cp -v $HOME/HyprlandTema1/config/mimeapps.list $CONFIG_DIR/
-cp -Rv $HOME/HyprlandTema1/local/bin $DIR/.local
-mkdir $DIR/.wallpapers
-mkdir $DIR/.scripts
-cp -Rv $HOME/HyprlandTema1/wallpapers/* $DIR/.wallpapers
-cp -Rv $HOME/HyprlandTema1/scripts/* $DIR/.scripts
-cp -v $HOME/HyprlandTema1/autostart $DIR
-cd $DIR
+cp -Rv "$HOME"/HyprlandTema1/config/kitty "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/config/gtk-3.0 "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/config/dunst "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/config/swaylock "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/config/nwg-look "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/config/viewnior "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/config/rofi "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/config/wlogout "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/config/waybar "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/config/xsettingsd "$CONFIG_DIR"/
+cp -v "$HOME"/HyprlandTema1/config/mimeapps.list "$CONFIG_DIR"/
+cp -Rv "$HOME"/HyprlandTema1/local/bin "$DIR"/.local
+mkdir "$DIR"/.wallpapers
+mkdir "$DIR"/.scripts
+cp -Rv "$HOME"/HyprlandTema1/wallpapers/* "$DIR"/.wallpapers
+cp -Rv "$HOME"/HyprlandTema1/scripts/* "$DIR"/.scripts
+cp -v "$HOME"/HyprlandTema1/autostart "$DIR"
+cd "$DIR || exit" || exit
 rm -f .autostart
 mv  autostart .autostart
-rm -rf $HOME/HyprlandTema1
+rm -rf "$HOME"/HyprlandTema1
 clear
 
 #Fonts
 echo -e "\e[1;31m${bold}Yazi Fontlari Yukleniyor${normal}\e[0m"
-mkdir -p $HOME/Downloads/nerdfonts/
-cd $HOME/Downloads/
+mkdir -p "$HOME"/Downloads/nerdfonts/
+cd "$HOME"/Downloads/ || exit
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.1/CascadiaCode.zip
-unzip '*.zip' -d $HOME/Downloads/nerdfonts/
-rm -rf *.zip
-sudo cp -R $HOME/Downloads/nerdfonts/ /usr/share/fonts/
+unzip '*.zip' -d "$HOME"/Downloads/nerdfonts/
+rm -rf -- *.zip
+sudo cp -R "$HOME"/Downloads/nerdfonts/ /usr/share/fonts/
 fc-cache -r
-rm -rf $HOME/Downloads/nerdfonts/
+rm -rf "$HOME"/Downloads/nerdfonts/
 clear
 
