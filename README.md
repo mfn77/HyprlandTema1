@@ -13,23 +13,21 @@ Basit Bir Hyprland Konfigürasyonu. Hiçbir düzenlemeyi ben oluşturmadım, sad
 
 ## OTOMATİK KURULUM
 
-İndirmeniz gereken bağımlılıklar ve programlar, bütün konfigürasyon dosyalarıyla beraber kurulum dosyasının içinde mevcut. Programı Çalıştırmak için 3 seçeneğiniz var:
-
-### Var Olan .config Dosyanızı Yedekleyin!!
+İndirmeniz gereken bağımlılıklar ve programlar, bütün konfigürasyon dosyalarıyla beraber kurulum dosyasının içinde mevcut. Otomatik kurulum yaparsanız var olan konfigürasyon dosyanız($HOME/.config) $HOME/.OldConfig dosyasına yedeklenir. Programı Çalıştırmak için 3 seçeneğiniz var:
 
 1- Ya terminalden aşağıdaki komutla otomatik kurabilirsiniz:
 
 ```sh
-curl -s -L https://raw.githubusercontent.com/mfn77/HyprlandTema1/main/Kurulum.sh | bash
+curl -s -L https://raw.githubusercontent.com/mfn77/HyprlandTema1/main/Install.sh | bash
 ```
 
-2- Ya Releases bölümünden Kurulum.sh dosyasını indirdikten sonra grafiksel olarak(GNOME - KDE Plasma gibi masaüstü ortamlarını kullanıyorsanız) sağ tıklayıp özelliklerden çalıştırabilir olarak işaretledikten sonra dosyanın üzerine çift tıklayarak,
+2- Ya Releases bölümünden Install.sh dosyasını indirdikten sonra grafiksel olarak(GNOME - KDE Plasma gibi masaüstü ortamlarını kullanıyorsanız) sağ tıklayıp özelliklerden çalıştırabilir olarak işaretledikten sonra dosyanın üzerine çift tıklayarak,
 
 3- Ya da yine dosyayı indirdikten sonra indirdiğiniz yerde terminal(uçbirim) açarak aşağıdaki komutla çalıştırabilirsiniz:
 
 ```sh
-chmod u+x Kurulum.sh
-./Kurulum.sh 
+chmod u+x Install.sh
+./Install.sh 
 ```
 
 ## MANUEL KURULUM
@@ -49,6 +47,16 @@ Temalar:
 
 ```sh
 yay -S catppuccin-gtk-theme-mocha catppuccin-cursors-mocha catppuccin-mocha-grub-theme-git nwg-look breeze-snow-cursor-theme
+```
+## KALDIRMA
+
+Uninstall.sh ile otomatik olarak bütün programları ve konfigürasyon dosyalarını kaldırabilirsiniz. Releases bölümünden Uninstall.sh dosyasını indirdikten sonra grafiksel olarak(GNOME - KDE Plasma gibi masaüstü ortamlarını kullanıyorsanız) sağ tıklayıp özelliklerden çalıştırabilir olarak işaretledikten sonra dosyanın üzerine çift tıklayarak,
+
+Ya da yine dosyayı indirdikten sonra indirdiğiniz yerde terminal(uçbirim) açarak aşağıdaki komutla çalıştırabilirsiniz:
+
+```sh
+chmod u+x Uninstall.sh
+./Uninstall.sh 
 ```
 
 ## Katkıda Bulunanlar
